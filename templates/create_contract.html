@@ -15,11 +15,9 @@ while($row = $result ->fetch_assoc()){
     <p>
    <select name=\"human\">
           <option>Выбрать человека</option>
-          while($row = $result ->fetch_assoc()){
-            human[]=$row
-            $final = mysql_fetch_array($result);
-            echo <option>$final[id] $final[name]</option>;
-           }
+       <option>Влад</option>
+       <option>Александр</option>
+       <option>Влад</option>
 </select>
     <p><input type="submit">
 </form>
